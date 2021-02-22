@@ -47,3 +47,16 @@ A query in our DSL has the basic format:
 Meter Point can be blank, in which case the API should return a sum of commissions for all Meter Points belonging to that Partner
 
 The Partner table just contains the name of the Partner, while the Meter Points table contains the "meterpoint", "consumption" and "uplift" for that meter point. The aim of the API is to return the "commission" of one or more of the Partners meter points which is calculated based on the consumption * uplift value. Uplift is stored as a pence value.
+
+## Roadmap for possible development 
+
+Authentication of the API with http auth or access tokens
+
+CSV import with PHP to read the files into the database instead of manual import
+
+CRUD functions to add, list, view and modify partners and meter points or record consumption
+
+Might be a separate consumption table with timestamps?
+
+Factories can be created for better testing
+
