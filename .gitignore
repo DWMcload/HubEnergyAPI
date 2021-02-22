@@ -22,7 +22,6 @@ Homestead.json
 /.vagrant
 .phpunit.result.cache
 .editorconfig
-.env.example
 .gitattributes
 .styleci.yml
 hubEnergy tech task
